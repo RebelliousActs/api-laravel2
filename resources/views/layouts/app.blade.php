@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: black;
+        }
         nav{
             background-color: #333;
             padding: 10px;
@@ -14,8 +19,21 @@
             text-decoration: none;
         }
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid purple;
             border-collapse: collapse;
+        }
+        table {
+            display: flexbox;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #222;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            color: white;
         }
     </style>
     <title>Proyecto estudiantes</title>
